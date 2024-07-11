@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    /* border: 1px solid aliceblue; */
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.option{
+    height: 50px;
+    width: 500px;
+    border: 1px solid aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
